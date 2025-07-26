@@ -11,7 +11,7 @@ import joblib
 import numpy as np
 import streamlit as st
 import pandas as pd
-import tensorflow as tf
+#import tensorflow as tf
 
 model = tf.keras.models.load_model('Ann_model.keras')
 preprocessor = joblib.load('preprocessor.pkl')
@@ -159,3 +159,6 @@ with st.expander("Resources"):
     - [Frequently Asked Questions about Anxiety](https://bbrfoundation.org/faq/frequently-asked-questions-about-anxiety)
     - [Crisis Text Line](https://www.crisistextline.org) — Text HOME to 741741
     """)
+
+import sys
+print(sys.version)
