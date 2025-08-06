@@ -1,0 +1,10 @@
+# tensorflow==2.15.0  # Commented out due to Python version incompatibility; uncomment if using Python 3.10/3.11
+
+streamlit==1.47.1
+rich==14.1.0
+markdown-it-py==3.0.0
+mdurl==0.1.2
+pygments==2.19.2
+numpy
+pandas
+scikit-learn
